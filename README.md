@@ -29,7 +29,7 @@ $ python3 generator.py
 
 ## Notes
 
-In the future, using [Matthew Barnett’s excellent `regex` module](https://pypi.org/project/regex/) instead of the built-in `re` module might be a better choice. The `regex` module is a drop-in replacement, provides full support for [Perl-style regular expressions (PCRE)](https://www.pcre.org/), and has much better Unicode support[\[1\]][1].
+In the future, using [Matthew Barnett’s excellent `regex` module](https://pypi.org/project/regex/) instead of the built-in `re` module might be a better choice. The `regex` module is a drop-in replacement, provides full support for [Perl-style regular expressions (PCRE)](https://www.pcre.org/), and has much better Unicode support<sup>[\[2\]][2]</sup>.
 
 Considering a YubiKey is usually configured using `yubikey-manager` ([which is written in Python](https://github.com/Yubico/yubikey-manager/blob/51a7ae438c923189788a1e31d3de18d452131942/README.adoc?plain=1#L7)) using the built-in `re` module be fine.
 
@@ -39,4 +39,6 @@ As of me writing this (November 11, 2023), both modules generated the same outpu
 
 \[1\]: Valid by Python's standards, see relevant comments in [`generator.py`](generator.py).
 
-[1]: https://stackoverflow.com/questions/7063420/perl-compatible-regular-expression-pcre-in-python
+\[2\]: <https://stackoverflow.com/questions/7063420/perl-compatible-regular-expression-pcre-in-python>
+
+[2]: https://stackoverflow.com/questions/7063420/perl-compatible-regular-expression-pcre-in-python
