@@ -1,0 +1,12 @@
+Platform:                      Linux 6.5.5-200.fc38.x86_64
+Python:                        3.11.6 (main, Oct  3 2023, 00:00:00) [GCC 13.2.1 20230728 (Red Hat 13.2.1-1)]
+Generated at:                  2023-11-07T18:10:27.203356+00:00
+
+'bepo'     RegExp (Valid):     /[\ !"\#\$%'\(\)\*\+,\-\.\/0123456789:;=\?@ABCDEFGHIJKLMNOPQRSTUVWXYZ`abcdefghijklmnopqrstuvwxyz «°»ÀÇÈÉÊàçèéê]{1,38}$/
+'de'       RegExp (Valid):     /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"\#\$%\&'\(\)\*\+,\-\.\/:;<=>\?\^_\ `§´ÄÖÜßäöü]{1,38}$/
+'fr'       RegExp (Valid):     /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\ !"\$%\&'\(\)\*\+,\-\.\/:;<=_£§°²µàçèéù]{1,38}$/
+'it'       RegExp (Valid):     /[\ !"\#\$%\&'\(\)\*\+,\-\.\/0123456789:;<=>\?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\\^_`abcdefghijklmnopqrstuvwxyz\|£§°çèéàìòù]{1,38}$/
+'modhex'   RegExp (Valid):     /[bcdefghijklnrtuvBCDEFGHIJKLNRTUV]{1,38}$/
+'norman'   RegExp (Valid):     /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"\#\$%\&'`\(\)\*\+,\-\.\/:;<=>\?@\[\\\]\^_\{\}\|\~\ ]{1,38}$/
+'uk'       RegExp (Valid):     /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@£\$%\&'`\(\)\*\+,\-\.\/:;<=>\?"\[\#\]\^_\{\}\~¬\ ]{1,38}$/
+'us'       RegExp (Valid):     /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"\#\$%\&'`\(\)\*\+,\-\.\/:;<=>\?@\[\\\]\^_\{\}\|\~\ ]{1,38}$/

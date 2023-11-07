@@ -4,16 +4,18 @@ Converts the [`yubikey-manager`](https://github.com/Yubico/yubikey-manager) scan
 
 ## Usage
 
+The following script will generate regular expressions for all of the available scancodes in `./yubikey-manager/ykman/scancodes/` and write them to `scancodes_regexp_file.txt`.
+
 ```bash
 git clone --recurse-submodules https://github.com/piotrpdev/yubikey-scancode-regexp-gen.git && \
 cd yubikey-scancode-regexp-gen && \
 python3 generator.py
 ```
 
-### Example output
+### Example console output
 
 > [!WARNING]
-> Don't use the output below, it's just an example. The output is generated based on the current version of the [`yubikey-manager`](https://github.com/Yubico/yubikey-manager) scancodes, which can change.
+> Don't use the output below, the generated file wil include important Unicode characters. The output is also generated based on the current version of the [`yubikey-manager`](https://github.com/Yubico/yubikey-manager) scancodes, which can change.
 
 ```bash
 $ python3 generator.py 
